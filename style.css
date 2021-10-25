@@ -117,17 +117,15 @@ body {
      width: 180px;
  }
  .vector{
-     opacity: 0.7;
      position: relative;
-     left: 980px;
-     bottom: 440px;
-     width: 374px;
+    left: 300px;
+     bottom: 1400px;
  }
  .second-background{
      background: url('./img/image\ 2.png');
     background-size: cover;
      height: 300px;
-    margin-top: 60px;
+     margin-top: 60px;
  }
  .second-background h1{
     font-size: 22px; 
@@ -136,7 +134,7 @@ body {
 }
  .comp-text{
      text-align: center;
-     margin-top: 70px;
+     padding-top: 70px;
      font-family:"Playfair Display";
  }
  .comp-text h2{
@@ -156,15 +154,18 @@ body {
     padding-top: 50px;
     
 }
+.mission-vision{
+    margin-top: 80px;
+}
 .concreed-glance{
     display: flex;
     justify-content: space-between;
     padding-left: 230px;
     padding-right: 230px;
 }
-.background-three h1{
+.topic{
     color: #ffffff;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 300;
     font-family: "Playfair Display";
     line-height: 138%;
@@ -321,8 +322,6 @@ body {
 
 /* footer */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 footer{
   background:#1D2A44;
@@ -511,15 +510,108 @@ footer .bottom-details .bottom_text{
 .second-main{
     background: #EFEFEF;
 }
+.our-purpose{
+    background:  #E5E5E5;
+    padding-top: -30px;
+}
 .who-we-are{
     display: flex;
+    background: none;
+    height: 300px;
+    margin-top: 60px;
+    padding-left: 380px;
+    padding-right: 280px;
 }
-.who-we-are-content{
 
+.who-we-are-content h1{
+    font-family: "Playfair Display";
+    color: #092358;
+    font-size: 38px;
+    margin-top: -5px;
 }
-.who-we-are-image{
+.who-we-are-content p{
+    width: 65%;
+    font-family: "BRFirma-Regular";
+    font-size: 16px;
+    color: #444444;
+}
+.anchor{
+    width: 400px;
+    height: 400px;
+}
+.investment-plan{
+    padding-top: 30px;
+    background: #E5E5E5;
+}
+.approach-to-investment{
+    height: 480px;
+    
+}
+.steps{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+.step h3{
+    font-family: "Playfair Display";
+    font-size: 24px;
+    color: #092358;  
+    margin-bottom: 10px;
+}
+.approach-to-investment h1 {
+    margin-left: 250px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    color: #092358;
+}
+.step p{
+    font-family: "BRFirma-Regular";
+    font-size: 14px;
+    color: #444444;
+    width: 90%;
+    
+}
+.step-icon{
+   margin-bottom: 10px;
+    height: 24px;
+    width: 24px;
+    background-color: #27D2A9;
+    border-radius: 50%;
+    display: inline-block;
+}
+.image-background{
+    margin: 0 auto;
+}
+.invest-image{
+    width: 1200px;
+}
+/* something-else */
+.something-else-here{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 320px;
+    padding-right: 250px;
+}
+.something-else-here .content h1{
+    font-family: "Playfair Display";
+    margin-bottom: 10px;
+    font-size: 38px;
+    color: #092358;
+}
+.something-else-here .content p{
+    width: 80%;
+    font-family: "BRFirma-Regular";
+    font-size: 14px;
+    color: #444444;
+}
 
+.image{
+    margin-top: 40px;
 }
+
+
  /* responsiveness */
  @media screen and (max-width: 1700px) {
     .main-background {
@@ -544,6 +636,7 @@ footer .bottom-details .bottom_text{
         bottom: 400px;
         width: 420px;
     }
+   
  }
  @media screen and (max-width: 1690px) {
    
@@ -552,6 +645,11 @@ footer .bottom-details .bottom_text{
        bottom: 400px;
        width: 420px;
    }
+   .vector-two{
+    top: 1360px;
+    left: 1208px;
+    width: 483px;
+}
 }
 @media screen and (max-width: 1680px) {
     .main-text{
@@ -565,6 +663,17 @@ footer .bottom-details .bottom_text{
        bottom: 400px;
        width: 385px;
    }
+   .vector-two{
+    top: 1360px;
+    left: 1198px;
+    width: 483px;
+}
+.who-we-are-content p{
+    width: 70%;
+    font-family: "BRFirma-Regular";
+    font-size: 16px;
+    color: #444444;
+}
 }
 @media screen and (max-width: 1670px) {
     .vector{
@@ -572,6 +681,11 @@ footer .bottom-details .bottom_text{
        bottom: 396px;
        width: 381px;
    }
+   .vector-two{
+    top: 1360px;
+    left: 1188px;
+    width: 483px;
+}
 }
 @media screen and (max-width: 1660px) {
     .vector{
@@ -579,6 +693,11 @@ footer .bottom-details .bottom_text{
        bottom: 340px;
        width: 374px;
    }
+   .vector-two{
+    top: 1360px;
+    left: 1177px;
+    width: 483px;
+}
 }
 @media screen and (max-width: 1650px) {
     .vector{
@@ -586,6 +705,11 @@ footer .bottom-details .bottom_text{
        bottom: 412px;
        width: 430px;  
    }
+   .vector-two{
+    top: 1360px;
+    left: 1168px;
+    width: 483px;
+}
 }
 @media screen and (max-width: 1640px) {
     .vector{
@@ -593,6 +717,16 @@ footer .bottom-details .bottom_text{
         bottom: 425px;
         width: 440px;  
    }
+   .vector-two{
+    top: 1360px;
+    left: 1155px;
+    width: 483px;
+}
+}
+@media screen and (max-width: 1637px){
+    .who-we-are-content p{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 1630px) {
     .vector{
@@ -600,6 +734,11 @@ footer .bottom-details .bottom_text{
         bottom: 428px;
         width: 440px;  
    }
+  .vector-two{
+    top: 1360px;
+    left: 1147px;
+    width: 483px;
+}
 }
 @media screen and (max-width: 1620px) {
     .vector{
@@ -607,8 +746,13 @@ footer .bottom-details .bottom_text{
         bottom: 428px;
         width: 440px;  
    }
+   .vector-two{
+    top: 1330px;
+    left: 1108px;
+    width: 510px;
 }
-/* @media screen and (max-width: 1610px) {
+}
+@media screen and (max-width: 1610px) {
     .vector{
        left: 1260px;
        bottom: 305px;
@@ -621,6 +765,11 @@ footer .bottom-details .bottom_text{
        bottom: 298px;
        width: 343px;
    }
+   .vector-two{
+    top: 1330px;
+    left: 1065px;
+    width: 535px;
+}
 }
 @media screen and (max-width: 1590px) {
     .vector{
@@ -635,6 +784,11 @@ footer .bottom-details .bottom_text{
        bottom: 285px;
        width: 332px;
    }
+   .vector-two{
+    top: 1330px;
+    left: 1045px;
+    width: 535px;
+}
 }
 @media screen and (max-width: 1570px) {
     .vector{
@@ -642,28 +796,53 @@ footer .bottom-details .bottom_text{
        bottom: 280px;
        width: 328px;
    }
-}*/
+   .who-we-are-content p{
+    width: 90%;
+}
+.something-else-here{
+    padding-left: 300px;
+    padding-right: 220px;
+}
+.something-else-here .content p{
+    width: 100%;
+}
+}
 @media screen and (max-width: 1560px) {
     .background-three p{
       
         width: 65%;
     }
+    .vector-two{
+        top: 1330px;
+        left: 1025px;
+        width: 535px;
+    }
 }
-/* @media screen and (max-width: 1550px) {
+ @media screen and (max-width: 1550px) {
     .vector{
        left: 1230px;
        bottom: 265px;
        width: 318px;
    }
 }
-
+@media screen and (max-width: 1540px) {
+.vector-two{
+    top: 1330px;
+    left: 1005px;
+    width: 536px;
+}
+}
 @media screen and (max-width: 1520px) {
     .vector{
        left: 1220px;
        bottom: 243px;
        width: 300px;
    }
-    
+   .vector-two{
+    top: 1330px;
+    left: 985px;
+    width: 536px;
+}
 }
 @media screen and (max-width: 1500px) {
     .vector{
@@ -671,30 +850,105 @@ footer .bottom-details .bottom_text{
        bottom: 233px;
        width: 295px;
    }
-}  */
+   .vector-two{
+    top: 1330px;
+    left: 965px;
+    width: 536px;
+}
+.who-we-are-content p{
+    width: 100%;
+}
+}  
 @media screen and (max-width: 1512px) {
     .background-three p{
        width: 70%;
    }
     
 }
+@media screen and (max-width: 1490px){
+    .vector-two{
+        top: 1330px;
+        left: 950px;
+        width: 536px;
+    }
+    .something-else-here{
+        padding-left: 280px;
+        padding-right: 200px;
+    }
+}
 @media screen and (max-width: 1467px) {
     .background-three p{
        width: 75%;
    }
     
+   .vector-two{
+    top: 1330px;
+    left: 925px;
+    width: 537px;
+}
+.who-we-are-content p{
+    width: 105%;
+}
+.who-we-are{
+    padding-left: 340px;
+    padding-right: 240px;
+}
+}
+@media screen and (max-width: 1440px){
+    .vector-two{
+        top: 1330px;
+        left: 900px;
+        width: 537px;
+    }
 }
 @media screen and (max-width: 1419px) {
     .background-three p{
        width: 80%;
    }
-    
+   .vector-two{
+    top: 1330px;
+    left: 880px;
+    width: 537px;
+}
+.something-else-here{
+    padding-left: 260px;
+    padding-right: 180px;
+}
+}
+@media screen and (max-width: 1400px){
+    .vector-two{
+        top: 1330px;
+        left: 862px;
+        width: 537px;
+    }
+    .something-else-here{
+        padding-left: 210px;
+        padding-right: 150px;
+    }
+  
+}
+@media screen and (max-width: 1388px){
+    .who-we-are{
+        padding-left: 300px;
+        padding-right: 200px;
+    }
 }
 @media screen and (max-width: 1380px) {
     .background-three p{
        width: 85%;
    }
-    
+   .vector-two{
+    top: 1330px;
+    left: 842px;
+    width: 537px;
+}
+}
+@media screen and (max-width: 1360px) {
+   .vector-two{
+    top: 1330px;
+    left: 822px;
+    width: 537px;
+}
 }
 @media screen and (max-width: 1345px) {
     .main-text{
@@ -703,13 +957,26 @@ footer .bottom-details .bottom_text{
     h3{
         width: 58%;  
      }
-    
+     .who-we-are{
+        padding-left: 280px;
+        padding-right: 180px;
+    }
+    .vector-two{
+        top: 1330px;
+        left: 798px;
+        width: 537px;
+    }
 }
 @media screen and (max-width: 1319px) {
     .concreed-glance{
         padding-left: 180px;
         padding-right: 180px;
    }
+   .vector-two{
+    top: 1330px;
+    left: 778px;
+    width: 537px;
+}
     
 }
 @media screen and (max-width: 1231px) {

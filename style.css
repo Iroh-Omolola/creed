@@ -195,7 +195,7 @@ body {
 
 .glance-paragraph{
     
-    padding-top: 40px; 
+    padding-top: 10px; 
  }
 .side-two-img{
     width: 420px;
@@ -210,6 +210,19 @@ body {
     left: 1218px;
     width: 483px;
     z-index: 1;
+}
+.transparent-vector{
+    position: absolute;
+    top: 130px;
+    left: 1249px;
+    opacity: 0.7;
+    width: 450px;
+}
+.vector-one{
+    position: absolute;
+    left: 1227px;
+    top: 107px;
+    width: 470px;
 }
 .why-concreed{
     display: grid;
@@ -636,6 +649,15 @@ footer .bottom-details .bottom_text{
         bottom: 400px;
         width: 420px;
     }
+    .vector-one{
+        left: 1223px;
+    }
+    .two{
+        left: 1210px;
+    }
+    .transparent-vector{
+        left: 1246px;
+    }
    
  }
  @media screen and (max-width: 1690px) {
@@ -649,6 +671,12 @@ footer .bottom-details .bottom_text{
     top: 1360px;
     left: 1208px;
     width: 483px;
+}
+.vector-one{
+    left: 1220px;
+}
+.transparent-vector{
+    left: 1240px;
 }
 }
 @media screen and (max-width: 1680px) {
@@ -668,6 +696,12 @@ footer .bottom-details .bottom_text{
     left: 1198px;
     width: 483px;
 }
+.vector-one{
+    left: 1210px;
+}
+.transparent-vector{
+    left: 1230px;
+}
 .who-we-are-content p{
     width: 70%;
     font-family: "BRFirma-Regular";
@@ -686,6 +720,12 @@ footer .bottom-details .bottom_text{
     left: 1188px;
     width: 483px;
 }
+.vector-one{
+    left: 1200px;
+}
+.transparent-vector{
+    left: 1219px;
+}
 }
 @media screen and (max-width: 1660px) {
     .vector{
@@ -697,6 +737,12 @@ footer .bottom-details .bottom_text{
     top: 1360px;
     left: 1177px;
     width: 483px;
+}
+.vector-one{
+    left: 1190px;
+}
+.transparent-vector{
+    left: 1209px;
 }
 }
 @media screen and (max-width: 1650px) {
@@ -710,6 +756,12 @@ footer .bottom-details .bottom_text{
     left: 1168px;
     width: 483px;
 }
+.vector-one{
+    left: 1180px;
+}
+.transparent-vector{
+    left: 1199px;
+}
 }
 @media screen and (max-width: 1640px) {
     .vector{
@@ -721,6 +773,12 @@ footer .bottom-details .bottom_text{
     top: 1360px;
     left: 1155px;
     width: 483px;
+}
+.vector-one{
+    left: 1170px;
+}
+.transparent-vector{
+    left: 1189px;
 }
 }
 @media screen and (max-width: 1637px){
@@ -739,6 +797,12 @@ footer .bottom-details .bottom_text{
     left: 1147px;
     width: 483px;
 }
+.vector-one{
+    left: 1160px;
+}
+.transparent-vector{
+    left: 1179px;
+}
 }
 @media screen and (max-width: 1620px) {
     .vector{
@@ -751,6 +815,12 @@ footer .bottom-details .bottom_text{
     left: 1108px;
     width: 510px;
 }
+.vector-one{
+    left: 1150px;
+}
+.transparent-vector{
+    left: 1169px;
+}
 }
 @media screen and (max-width: 1610px) {
     .vector{
@@ -758,6 +828,17 @@ footer .bottom-details .bottom_text{
        bottom: 305px;
        width: 349px;
    }
+   .vector-two{
+    top: 1330px;
+    left: 1100px;
+    width: 510px;
+}
+   .vector-one{
+    left: 1140px;
+}
+.transparent-vector{
+    left: 1159px;
+}
 }
 @media screen and (max-width: 1600px) {
     .vector{
@@ -765,10 +846,16 @@ footer .bottom-details .bottom_text{
        bottom: 298px;
        width: 343px;
    }
+   .vector-one{
+    left: 1130px;
+}
    .vector-two{
     top: 1330px;
     left: 1065px;
     width: 535px;
+}
+.transparent-vector{
+    left: 1149px;
 }
 }
 @media screen and (max-width: 1590px) {
@@ -777,6 +864,17 @@ footer .bottom-details .bottom_text{
        bottom: 290px;
        width: 337px;
    }
+   .vector-one{
+    left: 1120px;
+}
+.vector-two{
+    top: 1330px;
+    left: 1055px;
+    width: 535px;
+}
+.transparent-vector{
+    left: 1139px;
+}
 }
 @media screen and (max-width: 1580px) {
     .vector{
@@ -784,10 +882,16 @@ footer .bottom-details .bottom_text{
        bottom: 285px;
        width: 332px;
    }
+   .vector-one{
+    left: 1110px;
+}
    .vector-two{
     top: 1330px;
     left: 1045px;
     width: 535px;
+}
+.transparent-vector{
+    left: 1129px;
 }
 }
 @media screen and (max-width: 1570px) {
@@ -796,6 +900,15 @@ footer .bottom-details .bottom_text{
        bottom: 280px;
        width: 328px;
    }
+   .vector-one{
+    left: 1100px;
+}
+   .vector-two{
+    left: 1035px;
+}
+.transparent-vector{
+    left: 1119px;
+}
    .who-we-are-content p{
     width: 90%;
 }
@@ -812,10 +925,16 @@ footer .bottom-details .bottom_text{
       
         width: 65%;
     }
+    .vector-one{
+        left: 1090px;
+    }
     .vector-two{
         top: 1330px;
         left: 1025px;
         width: 535px;
+    }
+    .transparent-vector{
+        left: 1109px;
     }
 }
  @media screen and (max-width: 1550px) {
@@ -824,12 +943,27 @@ footer .bottom-details .bottom_text{
        bottom: 265px;
        width: 318px;
    }
+   .vector-one{
+    left: 1080px;
+}
+.vector-two{
+    left: 1015px;
+}
+.transparent-vector{
+    left: 1099px;
+}
 }
 @media screen and (max-width: 1540px) {
+.vector-one{
+        left: 1070px;
+    }
 .vector-two{
     top: 1330px;
     left: 1005px;
     width: 536px;
+}
+.transparent-vector{
+    left: 1089px;
 }
 }
 @media screen and (max-width: 1520px) {
@@ -838,10 +972,16 @@ footer .bottom-details .bottom_text{
        bottom: 243px;
        width: 300px;
    }
+   .vector-one{
+    left: 1050px;
+}
    .vector-two{
     top: 1330px;
     left: 985px;
     width: 536px;
+}
+.transparent-vector{
+    left: 1069px;
 }
 }
 @media screen and (max-width: 1500px) {
@@ -850,10 +990,16 @@ footer .bottom-details .bottom_text{
        bottom: 233px;
        width: 295px;
    }
+   .vector-one{
+    left: 1030px;
+}
    .vector-two{
     top: 1330px;
     left: 965px;
     width: 536px;
+}
+.transparent-vector{
+    left: 1049px;
 }
 .who-we-are-content p{
     width: 100%;
@@ -871,9 +1017,15 @@ footer .bottom-details .bottom_text{
         left: 950px;
         width: 536px;
     }
+    .vector-one{
+        left: 1020px;
+    }
     .something-else-here{
         padding-left: 280px;
         padding-right: 200px;
+    }
+    .transparent-vector{
+        left: 1039px;
     }
 }
 @media screen and (max-width: 1467px) {
@@ -885,6 +1037,12 @@ footer .bottom-details .bottom_text{
     top: 1330px;
     left: 925px;
     width: 537px;
+}
+.vector-one{
+    left: 997px;
+}
+.transparent-vector{
+    left: 1017px;
 }
 .who-we-are-content p{
     width: 105%;
@@ -900,6 +1058,12 @@ footer .bottom-details .bottom_text{
         left: 900px;
         width: 537px;
     }
+    .vector-one{
+        left: 967px;
+    }
+    .transparent-vector{
+        left: 990px;
+    }
 }
 @media screen and (max-width: 1419px) {
     .background-three p{
@@ -909,6 +1073,12 @@ footer .bottom-details .bottom_text{
     top: 1330px;
     left: 880px;
     width: 537px;
+}
+.vector-one{
+    left: 947px;
+}
+.transparent-vector{
+    left: 968px;
 }
 .something-else-here{
     padding-left: 260px;
@@ -925,7 +1095,12 @@ footer .bottom-details .bottom_text{
         padding-left: 210px;
         padding-right: 150px;
     }
-  
+    .vector-one{
+        left: 927px;
+    }
+    .transparent-vector{
+        left: 948px;
+    }
 }
 @media screen and (max-width: 1388px){
     .who-we-are{
@@ -937,10 +1112,16 @@ footer .bottom-details .bottom_text{
     .background-three p{
        width: 85%;
    }
+   .vector-one{
+    left: 907px;
+}
    .vector-two{
     top: 1330px;
     left: 842px;
     width: 537px;
+}
+.transparent-vector{
+    left: 928px;
 }
 }
 @media screen and (max-width: 1360px) {
@@ -948,6 +1129,12 @@ footer .bottom-details .bottom_text{
     top: 1330px;
     left: 822px;
     width: 537px;
+}
+.vector-one{
+    left: 887px;
+}
+.transparent-vector{
+    left: 908px;
 }
 }
 @media screen and (max-width: 1345px) {
@@ -961,10 +1148,16 @@ footer .bottom-details .bottom_text{
         padding-left: 280px;
         padding-right: 180px;
     }
+    .vector-one{
+        left: 873px;
+    }
     .vector-two{
         top: 1330px;
         left: 798px;
         width: 537px;
+    }
+    .transparent-vector{
+        left: 895px;
     }
 }
 @media screen and (max-width: 1319px) {
@@ -972,14 +1165,31 @@ footer .bottom-details .bottom_text{
         padding-left: 180px;
         padding-right: 180px;
    }
+   .vector-one{
+    left: 847px;
+}
    .vector-two{
     top: 1330px;
     left: 778px;
     width: 537px;
 }
+.transparent-vector{
+    left: 867px;
+}
     
 }
 @media screen and (max-width: 1231px) {
+    .vector-one{
+        left: 759px;
+    }
+    .vector-two{
+        top: 1330px;
+        left: 694px;
+        width: 537px;
+    }
+    .transparent-vector{
+        left: 779px;
+    }
     .concreed-glance {
         padding-left: 150px;
         padding-right: 150px;
